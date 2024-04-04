@@ -42,7 +42,7 @@ require_once __DIR__ . '/inc/header.php';
             </tr>
             </thead>
             <tbody>
-            <?php require_once 'selectData.php'; ?>
+            <?php require_once __DIR__ . '/operations/selectData.php'; ?>
             </tbody>
         </table>
     </section>
